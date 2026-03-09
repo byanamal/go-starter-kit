@@ -1,0 +1,41 @@
+# Binaries
+/bin/
+/build/
+/dist/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go cache & modules
+/pkg/
+*.test
+
+# Dependency directories (keamanan)
+vendor/
+
+# OS / Editor specific
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+logs/
+tmp/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Coverage
+coverage.out
+
+# Temp files
+*.tmp
+*.cache
+WARP.md
